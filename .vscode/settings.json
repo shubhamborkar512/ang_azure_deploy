@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/76b1ded5-1768-4477-bd7c-e3d269e96dd9/microsoft.web/sites/subscriptions/76b1ded5-1768-4477-bd7c-e3d269e96dd9/resourceGroups/Deployment/providers/Microsoft.Web/sites/ang-azure-deploy",
+    "appService.deploySubpath": "dist"
+}

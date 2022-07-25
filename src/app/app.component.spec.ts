@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'appazuredeploy'`, () => {
+  it(`should have as title 'login_logout'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('appazuredeploy');
+    expect(app.title).toEqual('login_logout');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('appazuredeploy app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('login_logout app is running!');
   });
 });
